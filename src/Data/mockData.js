@@ -1,0 +1,58 @@
+export const mockTeam = [
+  {
+    id: 1,
+    name: "Chanchal Sharma",
+    email: "chanchal.sharma@gmail.com",
+    phone: "9876543210",
+    access: "admin",
+  },
+  {
+    id: 2,
+    name: "Rahul Verma",
+    email: "rahul.verma@gmail.com",
+    phone: "9123456780",
+    access: "manager",
+  },
+  {
+    id: 3,
+    name: "Priya Singh",
+    email: "priya.singh@gmail.com",
+    phone: "9988776655",
+    access: "user",
+  },
+  {
+    id: 4,
+    name: "Amit Patel",
+    email: "amit.patel@gmail.com",
+    phone: "9012345678",
+    access: "user",
+  },
+  {
+    id: 5,
+    name: "Neha Gupta",
+    email: "neha.gupta@gmail.com",
+    phone: "9090909090",
+    access: "manager",
+  },
+  {
+    id: 6,
+    name: "Rohan Mehta",
+    email: "rohan.mehta@gmail.com",
+    phone: "9345678123",
+    access: "admin",
+  },
+  {
+    id: 7,
+    name: "Anjali Kapoor",
+    email: "anjali.kapoor@gmail.com",
+    phone: "9765432109",
+    access: "user",
+  },
+  {
+    id: 8,
+    name: "Vikram Joshi",
+    email: "vikram.joshi@gmail.com",
+    phone: "9898989898",
+    access: "manager",
+  },
+];
