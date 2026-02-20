@@ -10,7 +10,6 @@ import PersonOutLinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import styled from "@emotion/styled";
 
-const styleBox = styled(Box)``;
 const Topbar = ()=>{
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
@@ -20,7 +19,11 @@ const Topbar = ()=>{
     return <Box display="flex" justifyContent="space-between" p={2}>
        <Box 
        display = "flex"
-       backgroundColor = {colors.primary[400]}
+      backgroundColor={
+  theme.palette.mode === "dark"
+    ? colors.primary[400]
+    : colors.grey[900]
+}
        borderRadius="3px">
         <InputBase sx = {{ ml: 2, flex: 1}} placeholder="Search"/>
         <IconButton type="button" sx={{p: 1}}>
@@ -33,6 +36,7 @@ const Topbar = ()=>{
                {theme.palette.mode === "dark" ? (
                     <DarkModeOutLinedIcon />
                ):(
+                
                 <LightModeOutLinedIcon />
                )}
                 
