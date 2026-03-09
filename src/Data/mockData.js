@@ -1,4 +1,4 @@
-export const mockTeam = [
+export const mockDataTeam = [
   {
     id: 1,
     name: "Chanchal Sharma",
